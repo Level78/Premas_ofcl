@@ -3,18 +3,18 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Xgenone from './components/Xgenone'
 import { Section, SectionAlternate } from 'components/organisms';
+
 import {
 
   Hero,
 
   Newsletter,
   Overview,
+  Sales,
 
 } from './components';
 
-import {
-
-} from './data';
+import { genomicRange, } from './data';
 
 const useStyles = makeStyles(theme => ({
   pagePaddingTop: {
@@ -48,6 +48,9 @@ const Ecommerce = () => {
       <SectionAlternate>
         <Xgenone />
       </SectionAlternate>
+      <Section>
+        <Sales data = {genomicRange}/>
+      </Section>
 
 
 

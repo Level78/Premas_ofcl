@@ -118,8 +118,8 @@ const Hero = props => {
           data-aos={'fade-up'}
         >
           <Image
-            src="https://ik.imagekit.io/j6phbjneuop/controller-front_M3cFg7H8l4.png"
-            srcSet="https://ik.imagekit.io/j6phbjneuop/controller-front_M3cFg7H8l4.png"
+            src="https://ik.imagekit.io/j6phbjneuop/Controller3_10Wvzv4_Z.jpg"
+            srcSet="https://ik.imagekit.io/j6phbjneuop/Controller3_10Wvzv4_Z.jpg"
             alt="maelstrom"
             className={classes.image}
           />

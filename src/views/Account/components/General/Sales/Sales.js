@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
+import DChromiumconnnect from './component/'
 import {
   useMediaQuery,
   Grid,
@@ -12,7 +13,6 @@ import {
 import { Image } from 'components/atoms';
 import { SectionHeader } from 'components/molecules';
 
-import DialChromiumconnect from 'views/Account/components/General/DialChromiumconnect/DialChromiumconnect';
 
 
 const useStyles = makeStyles(theme => ({
@@ -42,8 +42,8 @@ const Sales = props => {
   return (
     <div className={className} {...rest}>
       <SectionHeader
-        title="Featured Product and catalogue"
-        subtitle="Team Premas , Choose a descriptive title and subtitle for given catalogue."
+        title="The most sold products"
+        subtitle="After 3 days all of your offers will arrive and you will have another 7 days to select your new company."
         subtitleColor="textPrimary"
         subtitleVariant="body1"
         data-aos="fade-up"
@@ -72,7 +72,7 @@ const Sales = props => {
                   align="center"
                 >
                    {item.title}
-                   <DialChromiumconnect/>
+                 <DChromiumconnnect></DChromiumconnnect>
                   {/* {item.title} */}
                 </Typography>
                 

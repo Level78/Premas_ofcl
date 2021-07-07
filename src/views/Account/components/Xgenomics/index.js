@@ -1,0 +1,1 @@
+export { default as Xgenomics } from './Xgenomics';

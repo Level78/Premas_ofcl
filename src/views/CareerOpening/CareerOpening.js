@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Divider } from '@material-ui/core';
 import { Section, SectionAlternate } from 'components/organisms';
-import { Application, Main, Newsletter } from './components';
+import { Application, Main, } from './components';
 
 import { jobRequirements } from './data';
 
@@ -22,13 +22,12 @@ const CareerOpening = () => {
     <div>
       <Section className={classes.pagePaddingTop}>
         <Main data={jobRequirements} />
+       
       </Section>
       <SectionAlternate innerNarrowed>
-        <Application />
+      <Application />
       </SectionAlternate>
-      <Section>
-        <Newsletter />
-      </Section>
+     
       <Divider />
     </div>
   );

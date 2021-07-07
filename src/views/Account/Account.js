@@ -61,25 +61,31 @@ const useStyles = makeStyles(theme => ({
 
 const subPages = [
   {
-    id: 'general',
-    href: '/account/?pid=general',
-    title: 'General',
+    id: 'genomicrange',
+    href: '/account/?pid=genomicrange',
+    title: '10x Genomics',
   },
   {
-    id: 'security',
-    href: '/account/?pid=security',
-    title: 'Security',
+    id: 'illuminia',
+    href: '/account/?pid=illuminia',
+    title: 'ILLUMINIA',
   },
   {
-    id: 'notifications',
-    href: '/account/?pid=notifications',
-    title: 'Notifications',
+    id: 'fluidigm',
+    href: '/account/?pid=fluidigm',
+    title: 'FLUIDIGM  ',
   },
+  // {
+  //   id: 'covaris',
+  //   href: '/account/?pid=covaris',
+  //   title: 'COVARIS',
+  // },
   {
-    id: 'billing',
-    href: '/account/?pid=billing',
-    title: 'Billing Information',
+    id: 'protiensimple',
+    href: '/account/?pid=protiensimple',
+    title: 'PROTIEN SIMPLE',
   },
+  
 ];
 
 const TabPanel = props => {
@@ -130,16 +136,16 @@ const Account = (props = {}) => {
           </Grid>
           <Grid item xs={12} md={9}>
             <CardBase withShadow align="left">
-              <TabPanel value={pageId} index={'general'}>
+              <TabPanel value={pageId} index={'genomicrange'}>
                 <General />
               </TabPanel>
-              <TabPanel value={pageId} index={'security'}>
+              <TabPanel value={pageId} index={'illuminia'}>
                 <Security />
               </TabPanel>
-              <TabPanel value={pageId} index={'notifications'}>
+              <TabPanel value={pageId} index={'fluidigm'}>
                 <Notifications />
               </TabPanel>
-              <TabPanel value={pageId} index={'billing'}>
+              <TabPanel value={pageId} index={'protiensimple'}>
                 <Billing />
               </TabPanel>
             </CardBase>

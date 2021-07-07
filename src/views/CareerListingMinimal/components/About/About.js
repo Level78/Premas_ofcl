@@ -39,8 +39,8 @@ const About = props => {
         >
           <div>
             <SectionHeader
-              title="Want to work with us?"
-              subtitle="Send one-off and automated email, push, and in-app messages to people. Create better stories. Send one-off and automated email, push, and in-app messages to people. Create better stories."
+              title="Why joinus?"
+              subtitle="There are Jobs, then there are Careers. The change to do the kind of work that adds up to something meaningful, the opportunity to challenge yourself and learn new skills, the prospect to work day-in and out with smart, zealous, and motivated people. If that's what excites you, then come join PLS!"
               align="left"
               disableGutter
               subtitleProps={{

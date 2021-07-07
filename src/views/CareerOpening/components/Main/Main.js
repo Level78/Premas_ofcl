@@ -116,21 +116,7 @@ const Main = props => {
               </ListItem>
             ))}
           </List>
-          <SectionHeader
-            title="Why to apply"
-            subtitle="We believe lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat elit vitae enim lacinia semper. Cras nulla lectus, porttitor vitae urna iaculis, malesuada tincidunt lectus. Proin nec tellus sit amet massa auctor imperdiet id vitae diam. Aenean gravida est nec diam suscipit iaculis. Praesent urna velit, auctor nec turpis et, vehicula lobortis sem. Vivamus convallis mi sagittis eleifend laoreet. Praesent vitae venenatis enim. Nulla tincidunt felis et lectus rhoncus laoreet."
-            align="left"
-            data-aos="fade-up"
-            titleProps={{
-              className: classes.title,
-              color: 'textPrimary',
-            }}
-            subtitleProps={{
-              variant: 'body1',
-              color: 'textPrimary',
-            }}
-            disableGutter
-          />
+         
         </Grid>
         <Grid item xs={12} md={4}>
           <Grid container spacing={isMd ? 4 : 2} direction="column">

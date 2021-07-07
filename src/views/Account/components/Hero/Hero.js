@@ -28,8 +28,8 @@ const Hero = props => {
     <div className={clsx(classes.root, className)} {...rest}>
       <Section>
         <SectionHeader
-          title="Account Settings"
-          subtitle="Change account information and settings"
+          title="PRODUCT CATALOGUE"
+          subtitle="Product information and Quick-access"
           align="left"
           disableGutter
           titleProps={{

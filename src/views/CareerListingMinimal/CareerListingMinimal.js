@@ -1,7 +1,7 @@
 import React from 'react';
 import { Divider } from '@material-ui/core';
 import { Section, SectionAlternate } from 'components/organisms';
-import { About, Newsletter } from './components';
+import { About,  } from './components';
 
 import { CardJobCompany } from 'components/organisms';
 import { CardBase } from 'components/organisms';
@@ -105,9 +105,7 @@ const CareerListingMinimal = () => (
 
 
     </SectionAlternate>
-    <Section>
-      <Newsletter />
-    </Section>
+    
     <Divider />
   </div>
 );
