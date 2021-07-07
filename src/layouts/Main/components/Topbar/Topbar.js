@@ -381,7 +381,8 @@ const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...r
 
 
           <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
-            <Button
+          <Button href='/contact-page-cover' variant = "contained" color ="#4a7895">CONNECT</Button>
+            {/* <Button
               variant="contained"
               color="#4a7895"
               component="a"
@@ -390,7 +391,7 @@ const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...r
               className={classes.listItemButton}
             >
               CONNECT
-            </Button>
+            </Button> */}
           </ListItem>
         </List>
       </Hidden>

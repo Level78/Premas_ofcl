@@ -162,7 +162,7 @@ const Routes = () => {
       />
       <Route
         exact
-        path="/service"
+        path="/servicer"
         render={matchProps => (
           <WithLayout
             {...matchProps}

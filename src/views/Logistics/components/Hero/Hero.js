@@ -6,6 +6,8 @@ import { Button } from '@material-ui/core';
 import { Image } from 'components/atoms';
 import { SectionHeader } from 'components/molecules';
 import { HeroShaped } from 'components/organisms';
+// import Gradientbutton from 'components/atoms/Gradient button'
+
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -28,9 +30,16 @@ const useStyles = makeStyles(theme => ({
 
 
 const docsButton = (
-  <Button size="large" variant="outlined" color="" component="a" href="/about">
-    OUR STORY
-  </Button>
+ 
+  <Button
+  size="large"
+  variant="outlined"
+  color=""
+  component="a"
+  href="/about"
+>
+  Our story
+</Button>
 
 );
 
@@ -55,6 +64,7 @@ const Hero = props => {
       <br />
       <br />
       <br />
+
       <HeroShaped
 
         leftSide={

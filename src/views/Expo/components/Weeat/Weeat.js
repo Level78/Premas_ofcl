@@ -30,7 +30,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const Articles = props => {
+const Weeat = props => {
   const { data, className, ...rest } = props;
   const classes = useStyles();
 
@@ -54,8 +54,8 @@ const Articles = props => {
   return (
     <div className={className} {...rest}>
       <SectionHeader
-        label="Premas culture"
-        title="We work Together"
+     
+        title="We eat together"
         align="left"
       />
       <div className="article-swiper swiper-container">
@@ -88,7 +88,7 @@ const Articles = props => {
   );
 };
 
-Articles.propTypes = {
+Weeat.propTypes = {
   /**
    * External classes
    */
@@ -99,4 +99,4 @@ Articles.propTypes = {
   data: PropTypes.array.isRequired,
 };
 
-export default Articles;
+export default Weeat;

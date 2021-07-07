@@ -7,9 +7,9 @@ import Managingd from './components/Managingd'
 import Vpsupport from './components/Vpsupport'
 import Gpm from './components/Gpm'
 import FooterHero from 'views/Rental/components/FooterHero'
-import { Box, Button } from '@material-ui/core';
-import { HeroSimpleBackground } from 'components/organisms';
-import { SectionHeader } from 'components/molecules';
+
+import { Articles } from 'views/CloudHosting/components';
+import Weeat from './components/Weeat'
 
 
 
@@ -18,7 +18,7 @@ import {
   Advantages,
   Contact,
   Description,
-  Gallery,
+
   Hero,
   PromoNumbers,
   Reviews
@@ -34,10 +34,119 @@ import {
 
 
 
-  gallery,
+ 
   // promo,
 
 } from './data';
+
+
+const articles = [
+  {
+    cover: {
+      src: 'https://ik.imagekit.io/j6phbjneuop/premasweb/2_hqTPplVJR.jpeg',
+      srcSet: 'https://ik.imagekit.io/j6phbjneuop/premasweb/2_hqTPplVJR.jpeg',
+    },
+    title: 'Team premas, choose relevant (alt tag)',
+   
+    
+  },
+  {
+    cover: {
+      src: 'https://ik.imagekit.io/j6phbjneuop/premasweb/IMG-20191023-WA0060_hMSkc9Qzhw.jpg',
+      srcSet: 'https://ik.imagekit.io/j6phbjneuop/premasweb/IMG-20191023-WA0060_hMSkc9Qzhw.jpg',
+    },
+    title: 'Bad application (# office picture)',
+ 
+  },
+  {
+    cover: {
+      src: 'https://ik.imagekit.io/j6phbjneuop/premasweb/1_LlgB34Vfs.jpeg',
+      srcSet: 'https://ik.imagekit.io/j6phbjneuop/premasweb/1_LlgB34Vfs.jpeg',
+    },
+    title: 'Right convention (# genomic event)',
+    
+  },
+  {
+    cover: {
+      src: 'https://ik.imagekit.io/j6phbjneuop/premasweb/4_ideOaxOFX.jpeg',
+      srcSet: 'https://ik.imagekit.io/j6phbjneuop/premasweb/4_ideOaxOFX.jpeg',
+    },
+    title: 'choose tags spectific to industry and business',
+   
+  },
+  {
+    cover: {
+      src: 'https://ik.imagekit.io/j6phbjneuop/premasweb/3_RdjZwE4ci.jpeg',
+      srcSet: 'https://ik.imagekit.io/j6phbjneuop/premasweb/3_RdjZwE4ci.jpeg',
+    },
+    title: 'Motivation Is The First Step To Success',
+   
+  },
+  
+   
+];
+
+
+const weeat = [
+  {
+    cover: {
+      src: 'https://ik.imagekit.io/j6phbjneuop/premasweb/3_0gZyJVPVP.jpg',
+      srcSet: 'https://ik.imagekit.io/j6phbjneuop/premasweb/3_0gZyJVPVP.jpg',
+    },
+  
+    
+  },
+  {
+    cover: {
+      src: 'https://ik.imagekit.io/j6phbjneuop/premasweb/4_WThnJJ-lR.jpg',
+      srcSet: 'https://ik.imagekit.io/j6phbjneuop/premasweb/4_WThnJJ-lR.jpg',
+    },
+
+ 
+  },
+  {
+    cover: {
+      src: 'https://ik.imagekit.io/j6phbjneuop/premasweb/5_Cdqv9HtTK.jpg',
+      srcSet: 'https://ik.imagekit.io/j6phbjneuop/premasweb/5_Cdqv9HtTK.jpg',
+    },
+  
+    
+  },
+  {
+    cover: {
+      src: 'https://ik.imagekit.io/j6phbjneuop/premasweb/2_rubNSrtF3.JPG',
+      srcSet: 'https://ik.imagekit.io/j6phbjneuop/premasweb/2_rubNSrtF3.JPG',
+    },
+   
+   
+  },
+  {
+    cover: {
+      src: 'https://ik.imagekit.io/j6phbjneuop/premasweb/3_RdjZwE4ci.jpeg',
+      srcSet: 'https://ik.imagekit.io/j6phbjneuop/premasweb/3_RdjZwE4ci.jpeg',
+    },
+   
+   
+  },
+  
+   
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const useStyles = makeStyles(theme => ({
   sectionDescription: {
@@ -85,25 +194,11 @@ const Expo = () => {
       <Divider />
       <SectionAlternate>
         {/* <SwiperImage data ={promo}/> */}
+        <Articles data = {articles}/>
+        <Weeat data = {weeat}/>
       </SectionAlternate>
-      <Box marginBottom={2} padding={2} border="1px solid #ccc" borderRadius="4px">
-        <HeroSimpleBackground backgroundImage="https://ik.imagekit.io/j6phbjneuop/premasweb/pexels-johannes-plenio-1103970_BhqXf76JI.jpg">
-          <Section narrow>
-            <SectionHeader
-              title="Premas  Work Environment"
-              titleVariant="h2"
-              subtitle="Be your best every day in a work environment that helps drive innovation in everything you do. At Premas LifeScineces we work , play and Eat together."
-              ctaGroup={[(
-                <Button color="primary" variant="contained" size="large">explore gallery</Button>
-              ), (
-                <Button color="primary" variant="outlined" size="large">Social Connect </Button>
-              )]}
-            />
-          </Section>
-        </HeroSimpleBackground>
-        <Gallery data={gallery} />
-      </Box>
-
+      
+     
       <Section>
 
         <Reviews data={reviews} />

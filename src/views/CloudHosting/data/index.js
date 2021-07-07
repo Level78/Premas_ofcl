@@ -120,58 +120,47 @@ export const partners = [
 export const articles = [
   {
     cover: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1@2x.jpg 2x',
+      src: 'https://ik.imagekit.io/j6phbjneuop/premasweb/2_hqTPplVJR.jpeg',
+      srcSet: 'https://ik.imagekit.io/j6phbjneuop/premasweb/2_hqTPplVJR.jpeg',
     },
     title: 'Increasing Prosperity With Positive Thinking',
     author: 'By Maria Stone',
-    date: '03 March, 2019',
+    
   },
   {
     cover: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2@2x.jpg 2x',
+      src: 'https://ik.imagekit.io/j6phbjneuop/premasweb/IMG-20191023-WA0060_hMSkc9Qzhw.jpg',
+      srcSet: 'https://ik.imagekit.io/j6phbjneuop/premasweb/IMG-20191023-WA0060_hMSkc9Qzhw.jpg',
     },
     title: 'Motivation Is The First Step To Success',
-    author: 'By Georg Smith',
-    date: '03 March, 2019',
+ 
   },
   {
     cover: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery3.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery3@2x.jpg 2x',
+      src: 'https://ik.imagekit.io/j6phbjneuop/premasweb/1_LlgB34Vfs.jpeg',
+      srcSet: 'https://ik.imagekit.io/j6phbjneuop/premasweb/1_LlgB34Vfs.jpeg',
     },
     title: 'Success Steps For Your Personal Or Business Life',
-    author: 'By Alex Nesi',
-    date: '03 March, 2019',
+    
   },
   {
     cover: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1@2x.jpg 2x',
+      src: 'https://ik.imagekit.io/j6phbjneuop/premasweb/4_ideOaxOFX.jpeg',
+      srcSet: 'https://ik.imagekit.io/j6phbjneuop/premasweb/4_ideOaxOFX.jpeg',
     },
     title: 'Increasing Prosperity With Positive Thinking',
-    author: 'By Maria Stone',
-    date: '03 March, 2019',
+   
   },
   {
     cover: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2@2x.jpg 2x',
+      src: 'https://ik.imagekit.io/j6phbjneuop/premasweb/3_RdjZwE4ci.jpeg',
+      srcSet: 'https://ik.imagekit.io/j6phbjneuop/premasweb/3_RdjZwE4ci.jpeg',
     },
     title: 'Motivation Is The First Step To Success',
-    author: 'By Georg Smith',
-    date: '03 March, 2019',
+   
   },
-  {
-    cover: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery3.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery3@2x.jpg 2x',
-    },
-    title: 'Success Steps For Your Personal Or Business Life',
-    author: 'By Alex Nesi',
-    date: '03 March, 2019',
-  },
+  
+   
 ];
 
 export const reviews = [
