@@ -234,8 +234,9 @@ const Expo = () => {
     className="vertical-timeline-element--work"
     contentStyle={{ background: '#000000', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  #000000' }}
-    date="2011- 2013 "
+   
     iconStyle={{ background: '#000000', color: '#fff' }}
+    date="2011- 2013 "
     // icon={<WorkIcon />}
   >
     <h3 className="vertical-timeline-element-title">2021</h3>
