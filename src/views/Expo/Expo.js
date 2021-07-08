@@ -10,6 +10,11 @@ import FooterHero from 'views/Rental/components/FooterHero'
 
 import { Articles } from 'views/CloudHosting/components';
 import Weeat from './components/Weeat'
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+
+
+
 
 
 
@@ -20,7 +25,7 @@ import {
   Description,
 
   Hero,
-  PromoNumbers,
+  // PromoNumbers,
   Reviews
 
 
@@ -28,7 +33,7 @@ import {
 } from './components';
 
 import {
-  promoNumbers,
+  // promoNumbers,
   advantages,
   reviews,
 
@@ -168,9 +173,125 @@ const Expo = () => {
       <SectionAlternate className={classes.sectionDescription}>
         <Description />
       </SectionAlternate>
-      <Section>
-        <PromoNumbers data={promoNumbers} />
-      </Section>
+
+
+     
+
+
+
+
+
+
+
+
+     
+
+
+<VerticalTimeline>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: '#000000', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  #000000' }}
+    date="2011- "
+    iconStyle={{ background: '#000000', color: '#fff' }}
+    // icon={<WorkIcon />}
+  >
+    <h3 className="vertical-timeline-element-title">2011</h3>
+    <h4 className="vertical-timeline-element-subtitle">India</h4>
+    <p>
+      PREMAS LIFESCIENCES FOUNDED
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: '#000000', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  #000000' }}
+    date="2011- 2013 "
+    iconStyle={{ background: '#000000', color: '#fff' }}
+    // icon={<WorkIcon />}
+  >
+    <h3 className="vertical-timeline-element-title">2013</h3>
+    <h4 className="vertical-timeline-element-subtitle">funding</h4>
+    <p>
+    Team , content goes here !
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: '#000000', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  #000000' }}
+    date="2011- "
+    iconStyle={{ background: '#000000', color: '#fff' }}
+    // icon={<WorkIcon />}
+  >
+    <h3 className="vertical-timeline-element-title">2018</h3>
+    <h4 className="vertical-timeline-element-subtitle">Best Enterprsie product</h4>
+    <p>
+    content goes here
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: '#000000', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  #000000' }}
+    date="2011- 2013 "
+    iconStyle={{ background: '#000000', color: '#fff' }}
+    // icon={<WorkIcon />}
+  >
+    <h3 className="vertical-timeline-element-title">2021</h3>
+    <h4 className="vertical-timeline-element-subtitle">Covid19 solution partner</h4>
+    <p>
+
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    contentStyle={{ background: '#000000', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  #000000' }}
+  
+    className="vertical-timeline-element--education"
+    date="April 2013"
+    iconStyle={{ background: '#000000', color: '#fff' }}
+    // icon={<SchoolIcon />}
+  >
+    <h3 className="vertical-timeline-element-title">We will redeisgn visual after content</h3>
+    <h4 className="vertical-timeline-element-subtitle">use subtitle here</h4>
+    <p>
+  Team premas , Icon can be placed inside a circle timeline
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    contentStyle={{ background: '#000000', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  #000000' }}
+    className="vertical-timeline-element--education"
+    date="November 2012"
+    iconStyle={{ background: '#000000', color: '#fff' }}
+    // icon={<SchoolIcon />}
+  >
+    <h3 className="vertical-timeline-element-title">Agile Development </h3>
+    <h4 className="vertical-timeline-element-subtitle">we have applied the basic css to the  timeline</h4>
+    <p>
+      Team , if you have any visual need regarding placement let us know.
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    contentStyle={{ background: '#000000', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  #000000' }}
+  
+    className="vertical-timeline-element--education"
+    date="April 2013"
+    iconStyle={{ background: '#000000', color: '#fff' }}
+    // icon={<SchoolIcon />}
+  >
+    <h3 className="vertical-timeline-element-title">We will redeisgn visual after content</h3>
+    <h4 className="vertical-timeline-element-subtitle">use subtitle here</h4>
+    <p>
+  Team, Timeline contains three major content alignment , headline , sub and content.
+    </p>
+  </VerticalTimelineElement>
+
+  
+</VerticalTimeline>
+    
       <Divider />
 
       <Section>

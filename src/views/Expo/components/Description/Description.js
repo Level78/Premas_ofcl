@@ -13,13 +13,15 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
+
+
 const Description = props => {
   const { className, ...rest } = props;
   const classes = useStyles();
 
   return (
-    <div className={className} {...rest}>
-      <Grid container spacing={2}>
+    <div  className={className} {...rest}>
+      <Grid color= "#ffff" container spacing={2}>
         <Grid item xs={12}>
           <Typography
             variant="h4"
