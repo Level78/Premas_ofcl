@@ -11,6 +11,9 @@ import {
 import { Image } from 'components/atoms';
 import { SectionHeader } from 'components/molecules';
 import { Section } from 'components/organisms';
+import { Contact } from 'views/ContactPage/components';
+import { mapData } from 'views/ContactPage/data';
+
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -46,6 +49,7 @@ const useStyles = makeStyles(theme => ({
       top: 0,
       left: 0,
       width: '47vw',
+      
       maxWidth: 740,
       height: '100%',
       marginLeft: 0,
@@ -81,15 +85,16 @@ const ContactPageCover = () => {
   });
 
   return (
+    <>
     <div className={classes.root}>
       <Section className={classes.section}>
         <div className={classes.wrapper}>
           <div className={classes.cover}>
             <Image
-              src="https://ik.imagekit.io/j6phbjneuop/PLS_Gallery_New_Pic_2_OFmLeHp79.jpeg"
+              src="https://ik.imagekit.io/j6phbjneuop/PLS_Gallery_New_Pic_2_OFmLeHp79_y4v3T4_4F.jpeg"
               alt="Contact"
               className={classes.image}
-              lazyProps={{ width: '100%' }}
+              lazyProps={{ width: '150%' }}
             />
           </div>
           <div className={classes.content}>
@@ -163,10 +168,16 @@ const ContactPageCover = () => {
               </Grid>
             </div>
           </div>
+         
         </div>
+      
       </Section>
+     
       <Divider />
+      
     </div>
+    <Contact data={mapData} />
+    </>
   );
 };
 

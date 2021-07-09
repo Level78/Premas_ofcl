@@ -32,7 +32,7 @@ const Contact = props => {
           <div>
             <SectionHeader
               title="Contact details"
-              subtitle="Keep track of what's happening with your data, change permissions, and run reports against your data anywhere in the world. Keep track of what's happening with your data, change permissions."
+              subtitle="Wether you have a question about the technology feature , pricing or a need of demo -our team of proficient people are always there to answer your questions. Drop a line today for the best consultative lifesciences solution"
               subtitleProps={{
                 variant: 'body1',
                 color: 'textPrimary',
@@ -44,14 +44,14 @@ const Contact = props => {
               <ListItem disableGutters data-aos="fade-up">
                 <ListItemAvatar>
                   <Avatar
-                    src="https://assets.maccarianagency.com/the-front/illustrations/contact-icon-phone.png"
-                    srcSet="https://assets.maccarianagency.com/the-front/illustrations/contact-icon-phone@2x.png 2x"
+                    src="https://ik.imagekit.io/j6phbjneuop/phone-icon-2-256_bOx2ynaoK.png"
+                    srcSet="https://ik.imagekit.io/j6phbjneuop/phone-icon-2-256_bOx2ynaoK.png"
                     className={classes.icon}
                   />
                 </ListItemAvatar>
                 <ListItemText
                   primary="Phone"
-                  secondary="+39 659-657-0133"
+                  secondary="+91 1146170798"
                   primaryTypographyProps={{
                     variant: 'subtitle1',
                     color: 'textSecondary',
@@ -65,14 +65,14 @@ const Contact = props => {
               <ListItem disableGutters data-aos="fade-up">
                 <ListItemAvatar>
                   <Avatar
-                    src="https://assets.maccarianagency.com/the-front/illustrations/contact-icon-mail.png"
-                    srcSet="https://assets.maccarianagency.com/the-front/illustrations/contact-icon-mail@2x.png 2x"
+                    src="https://ik.imagekit.io/j6phbjneuop/Communication-email-blue-icon_m3zXwVAGl.png"
+                    srcSet="https://ik.imagekit.io/j6phbjneuop/Communication-email-blue-icon_m3zXwVAGl.png"
                     className={classes.icon}
                   />
                 </ListItemAvatar>
                 <ListItemText
                   primary="Email"
-                  secondary="hi@maccarianagency.com"
+                  secondary="contact@premaslifesciences.com"
                   primaryTypographyProps={{
                     variant: 'subtitle1',
                     color: 'textSecondary',
@@ -86,14 +86,14 @@ const Contact = props => {
               <ListItem disableGutters data-aos="fade-up">
                 <ListItemAvatar>
                   <Avatar
-                    src="https://assets.maccarianagency.com/the-front/illustrations/contact-icon-pin.png"
-                    srcSet="https://assets.maccarianagency.com/the-front/illustrations/contact-icon-pin@2x.png 2x"
+                    src="https://ik.imagekit.io/j6phbjneuop/map_1__u2h0rQNiNe.png"
+                    srcSet="https://ik.imagekit.io/j6phbjneuop/map_1__u2h0rQNiNe.png"
                     className={classes.icon}
                   />
                 </ListItemAvatar>
                 <ListItemText
-                  primary="Head Office"
-                  secondary="Via E. Golla 4"
+                  primary="PREAMAS LIFESCIENCES pvt ltd"
+                  secondary="E-49/5, Second floor, okhla phase II , Delhi 110020"
                   primaryTypographyProps={{
                     variant: 'subtitle1',
                     color: 'textSecondary',

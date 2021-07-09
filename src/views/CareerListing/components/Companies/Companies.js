@@ -26,7 +26,7 @@ const Companies = props => {
       <SectionHeader
         title={
           <>
-            Companies {isMd ? null : <br />} you love &nbsp;
+          Industry Top Job    {isMd ? null : <br />} in  &nbsp;
             <TypedText
               component="span"
               variant="h4"
@@ -34,14 +34,14 @@ const Companies = props => {
               className={classes.typed}
               typedProps={{
                 strings: [
-                  'Atlassian',
-                  'Google',
-                  'Slack',
-                  'Mailchimp',
-                  'Dropbox',
+               
+                  'Biotechnology',
+                  'Sales',
+                  'Genomics',
+                 
                 ],
-                typeSpeed: 50,
-                loop: true,
+                typeSpeed: 90,
+                loop: false,
               }}
             />
           </>
@@ -80,7 +80,7 @@ const Companies = props => {
           </Grid>
         ))}
         <Grid item container justify="center" xs={12} data-aos="fade-up">
-          <Button variant="contained" color="secondary" size="large">
+          <Button variant="contained" color="primary" size="large">
             See all jobs
           </Button>
         </Grid>

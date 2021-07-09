@@ -2,6 +2,11 @@
 /* eslint-disable react/display-name */
 import React from 'react';
 import clsx from 'clsx';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import { IconButton } from '@material-ui/core';
+
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import {
@@ -240,6 +245,22 @@ const SidebarNav = props => {
           CONNECT
         </Button>
       </ListItem>
+
+
+      <ListItem disableGutters>
+                <IconButton className={classes.socialIcon}>
+                  <FacebookIcon className={classes.icon} />
+                </IconButton>
+                <IconButton className={classes.socialIcon}>
+                  <InstagramIcon className={classes.icon} />
+                </IconButton>
+                <IconButton className={classes.socialIcon}>
+                  <TwitterIcon className={classes.icon} />
+                </IconButton>
+                {/* <IconButton className={classes.socialIcon}>
+                  <LinkedinIcon className={classes.icon} />
+                </IconButton> */}
+              </ListItem>
       <ListItem className={classes.listItem}>
         {/* <Divider className={classes.divider} /> */}
       </ListItem>

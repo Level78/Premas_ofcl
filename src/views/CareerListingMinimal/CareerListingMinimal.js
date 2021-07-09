@@ -1,18 +1,21 @@
 import React from 'react';
 import { Divider } from '@material-ui/core';
-import { Section, SectionAlternate } from 'components/organisms';
+import { Section,} from 'components/organisms';
 import { About,  } from './components';
 
-import { CardJobCompany } from 'components/organisms';
-import { CardBase } from 'components/organisms';
+// import { CardJobCompany } from 'components/organisms';
+// import { CardBase } from 'components/organisms';
 
-import Button from '@material-ui/core/Button'
+// import Button from '@material-ui/core/Button'
+import { Companies } from 'views/CareerListing/components';
+
 
 
 
 
 // import { features,   } from './data';
-import Dialoguetsm from 'components/organisms/Dialoguetsm';
+// import Dialoguetsm from 'components/organisms/Dialoguetsm';
+import { companies } from './data';
 
 const CareerListingMinimal = () => (
   <div>
@@ -20,6 +23,7 @@ const CareerListingMinimal = () => (
     <Section>
       <About />
     </Section>
+    <Companies data = {companies}/>
     {/* <Features data={features} /> */}
 
 
@@ -30,7 +34,7 @@ const CareerListingMinimal = () => (
 
 
 
-    <SectionAlternate>
+    {/* <SectionAlternate>
 
 
       <CardBase withShadow liftUp>
@@ -104,7 +108,7 @@ const CareerListingMinimal = () => (
 
 
 
-    </SectionAlternate>
+    </SectionAlternate> */}
     
     <Divider />
   </div>

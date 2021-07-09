@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import InstagramIcon from '@material-ui/icons/Instagram';
 
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -351,7 +354,7 @@ const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...r
 
           <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
 
-            <Button href='/logistics' style={linkStyles} activeStyle={activeStyles}>Media</Button>
+            <Button href='/logistics' style={linkStyles} activeStyle={activeStyles}>Knowledge_hub</Button>
 
           </ListItem>
 
@@ -360,7 +363,7 @@ const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...r
 
 
 
-            <Button href='/career-listing-minimal' style={linkStyles} activeStyle={activeStyles}>Carrer</Button>
+            <Button href='/career-listing-minimal' style={linkStyles} activeStyle={activeStyles}>career</Button>
 
 
 
@@ -369,15 +372,20 @@ const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...r
           <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
             <DarkModeToggler themeMode={themeMode} onClick={() => themeToggler()} />
           </ListItem>
-          {/* <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
-            <Button
-              variant="outlined"
-              component="a"
-              href="/documentation"
-            >
-              Documentation
-            </Button>
-          </ListItem> */}
+          <ListItem disableGutters>
+                <IconButton className={classes.socialIcon}>
+                  <FacebookIcon className={classes.icon} />
+                </IconButton>
+                <IconButton className={classes.socialIcon}>
+                  <InstagramIcon className={classes.icon} />
+                </IconButton>
+                <IconButton className={classes.socialIcon}>
+                  <TwitterIcon className={classes.icon} />
+                </IconButton>
+                {/* <IconButton className={classes.socialIcon}>
+                  <LinkedinIcon className={classes.icon} />
+                </IconButton> */}
+              </ListItem>
 
 
 

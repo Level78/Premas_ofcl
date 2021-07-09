@@ -6,6 +6,8 @@ import { Button } from '@material-ui/core';
 import { Image } from 'components/atoms';
 import { SectionHeader } from 'components/molecules';
 import { HeroShaped } from 'components/organisms';
+// import { Box } from '@material-ui/core';
+// import { TypedText } from 'components/molecules';
 // import Gradientbutton from 'components/atoms/Gradient button'
 
 
@@ -68,6 +70,15 @@ const Hero = props => {
       <HeroShaped
 
         leftSide={
+
+
+       
+         
+      
+
+
+
+
           <SectionHeader
 
             title="Breakthrough Discoveries need
@@ -80,6 +91,7 @@ const Hero = props => {
             data-aos="fade-up"
             titleVariant="h2"
           />
+          
         }
         rightSide={
           <div className={classes.cover}>

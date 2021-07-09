@@ -5,6 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Box, List, ListItem, Grid, Typography } from '@material-ui/core';
 import { SectionAlternate, CardBase } from 'components/organisms';
 import { Hero, General, Security, Notifications, Billing } from './components';
+import { Button } from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -94,6 +95,7 @@ const TabPanel = props => {
   return (
     <Box component="div" hidden={value !== index} {...other}>
       {value === index && children}
+      
     </Box>
   );
 };
@@ -101,6 +103,7 @@ const TabPanel = props => {
 const Account = (props = {}) => {
   const classes = useStyles();
   let pageId = parse(window.location.search).pid || 'general';
+  
 
   return (
     <div className={classes.root}>
@@ -121,6 +124,7 @@ const Account = (props = {}) => {
                     )}
                     disableGutters
                   >
+                  
                     <Typography
                       variant="subtitle1"
                       noWrap
@@ -137,7 +141,9 @@ const Account = (props = {}) => {
           <Grid item xs={12} md={9}>
             <CardBase withShadow align="left">
               <TabPanel value={pageId} index={'genomicrange'}>
+           
                 <General />
+                <Button >hello</Button>
               </TabPanel>
               <TabPanel value={pageId} index={'illuminia'}>
                 <Security />
