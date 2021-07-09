@@ -198,21 +198,17 @@ const SidebarNav = props => {
 
       <ListItem className={classes.listItem}>
 
-      <Button href='/enterprise' style={linkStyles} activeStyle={activeStyles}>Products</Button>
+      <Button href='/account' style={linkStyles} activeStyle={activeStyles}>Products</Button>
       </ListItem>
       <br />
 
-      <ListItem className={classes.listItem}>
-
-<Button href='/account' style={linkStyles} activeStyle={activeStyles}>Solutions</Button>
-</ListItem>
-<br />
+  
 
       
 
 
       <ListItem className={classes.listItem}>
-        <Button href='/logistics' style={linkStyles} activeStyle={activeStyles}>Media</Button>
+        <Button href='/logistics' style={linkStyles} activeStyle={activeStyles}>Knowledge hub</Button>
       </ListItem>
       <br />
 

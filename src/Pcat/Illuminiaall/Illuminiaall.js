@@ -1,11 +1,17 @@
+
+
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
-import { useMediaQuery, Grid, Typography, NoSsr } from '@material-ui/core';
+import { useMediaQuery, Grid, Typography,  } from '@material-ui/core';
 import { SectionHeader } from 'components/molecules';
 import { CardBase } from 'components/organisms';
 import { Image } from 'components/atoms';
+
+
+
 
 const useStyles = makeStyles(theme => ({
   cardBase: {
@@ -31,7 +37,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const HouseTypes = props => {
+const Illuminiaall = props => {
   const { className, ...rest } = props;
   const classes = useStyles();
 
@@ -42,16 +48,19 @@ const HouseTypes = props => {
 
   return (
     <div className={className} {...rest}>
+               <Image center src = "https://ik.imagekit.io/j6phbjneuop/Gear-6.7s-200px_lrbT6ahWj.svg"/>
+       
       <SectionHeader
-        title="House types"
-        subtitle="After 3 days all of your offers will arrive and you will have another 7 days to select your new company."
+        title="Featured products"
+        subtitle="Re-building illuminia "
         data-aos="fade-up"
       />
+
       <Grid container spacing={isMd ? 4 : 2}>
         <Grid item xs={12} sm={4} data-aos="fade-up">
           <CardBase withShadow liftUp className={classes.cardBase}>
             <div>
-              <Image src = "https://ik.imagekit.io/j6phbjneuop/MiniSeq_Hires_MtdCwOlUj.png"/>
+              <Image src = "https://ik.imagekit.io/j6phbjneuop/Ellipsis-1s-200px_iMfyBkbV_.svg"/>
 
            
             </div>
@@ -62,14 +71,14 @@ const HouseTypes = props => {
               noWrap
               className={clsx(classes.title, 'card-title')}
             >
-              Cosy house
+              {/* Cosy house */}
             </Typography>
           </CardBase>
         </Grid>
         <Grid item xs={12} sm={4} data-aos="fade-up">
           <CardBase withShadow liftUp className={classes.cardBase}>
             <div>
-              <NoSsr><i className={clsx(classes.icon, 'fas fa-couch', 'card-icon')} /></NoSsr>
+            <Image src = "https://ik.imagekit.io/j6phbjneuop/Ellipsis-1s-200px_iMfyBkbV_.svg"/>
             </div>
             <Typography
               variant="h5"
@@ -78,18 +87,14 @@ const HouseTypes = props => {
               noWrap
               className={clsx(classes.title, 'card-title')}
             >
-              Comfortable
+              {/* Comfortable */}
             </Typography>
           </CardBase>
         </Grid>
         <Grid item xs={12} sm={4} data-aos="fade-up">
           <CardBase withShadow liftUp className={classes.cardBase}>
             <div>
-              <NoSsr>
-                <i
-                  className={clsx(classes.icon, 'fas fa-box-tissue', 'card-icon')}
-                />
-              </NoSsr>
+            <Image src = "https://ik.imagekit.io/j6phbjneuop/Ellipsis-1s-200px_iMfyBkbV_.svg"/>
             </div>
             <Typography
               variant="h5"
@@ -98,7 +103,7 @@ const HouseTypes = props => {
               noWrap
               className={clsx(classes.title, 'card-title')}
             >
-              Modern house
+              {/* Modern house */}
             </Typography>
           </CardBase>
         </Grid>
@@ -107,7 +112,7 @@ const HouseTypes = props => {
         <Grid item xs={12} sm={4} data-aos="fade-up">
           <CardBase withShadow liftUp className={classes.cardBase}>
             <div>
-              <Image src = "https://ik.imagekit.io/j6phbjneuop/MiniSeq_Hires_MtdCwOlUj.png"/>
+              <Image src = "https://ik.imagekit.io/j6phbjneuop/Ellipsis-1s-200px_iMfyBkbV_.svg"/>
 
            
             </div>
@@ -118,14 +123,14 @@ const HouseTypes = props => {
               noWrap
               className={clsx(classes.title, 'card-title')}
             >
-              Cosy house
+              {/* Cosy house */}
             </Typography>
           </CardBase>
         </Grid>
         <Grid item xs={12} sm={4} data-aos="fade-up">
           <CardBase withShadow liftUp className={classes.cardBase}>
             <div>
-              <NoSsr><i className={clsx(classes.icon, 'fas fa-couch', 'card-icon')} /></NoSsr>
+            <Image src = "https://ik.imagekit.io/j6phbjneuop/Ellipsis-1s-200px_iMfyBkbV_.svg"/>
             </div>
             <Typography
               variant="h5"
@@ -134,18 +139,14 @@ const HouseTypes = props => {
               noWrap
               className={clsx(classes.title, 'card-title')}
             >
-              Comfortable
+              {/* Comfortable */}
             </Typography>
           </CardBase>
         </Grid>
         <Grid item xs={12} sm={4} data-aos="fade-up">
           <CardBase withShadow liftUp className={classes.cardBase}>
             <div>
-              <NoSsr>
-                <i
-                  className={clsx(classes.icon, 'fas fa-box-tissue', 'card-icon')}
-                />
-              </NoSsr>
+            <Image src = "https://ik.imagekit.io/j6phbjneuop/Ellipsis-1s-200px_iMfyBkbV_.svg"/>
             </div>
             <Typography
               variant="h5"
@@ -154,7 +155,7 @@ const HouseTypes = props => {
               noWrap
               className={clsx(classes.title, 'card-title')}
             >
-              Modern house
+              {/* Modern house */}
             </Typography>
           </CardBase>
         </Grid>
@@ -163,7 +164,7 @@ const HouseTypes = props => {
         <Grid item xs={12} sm={4} data-aos="fade-up">
           <CardBase withShadow liftUp className={classes.cardBase}>
             <div>
-              <Image src = "https://ik.imagekit.io/j6phbjneuop/MiniSeq_Hires_MtdCwOlUj.png"/>
+              <Image src = "https://ik.imagekit.io/j6phbjneuop/Ellipsis-1s-200px_iMfyBkbV_.svg"/>
 
            
             </div>
@@ -174,37 +175,22 @@ const HouseTypes = props => {
               noWrap
               className={clsx(classes.title, 'card-title')}
             >
-              Cosy house
+              {/* Cosy house */}
             </Typography>
           </CardBase>
         </Grid>
-        <Grid item xs={12} sm={4} data-aos="fade-up">
-          <CardBase withShadow liftUp className={classes.cardBase}>
-            <div>
-              <NoSsr><i className={clsx(classes.icon, 'fas fa-couch', 'card-icon')} /></NoSsr>
-            </div>
-            <Typography
-              variant="h5"
-              color="textPrimary"
-              align="center"
-              noWrap
-              className={clsx(classes.title, 'card-title')}
-            >
-              Comfortable
-            </Typography>
-          </CardBase>
-        </Grid>
+      
         
       </Grid>
     </div>
   );
 };
 
-HouseTypes.propTypes = {
+Illuminiaall.propTypes = {
   /**
    * External classes
    */
   className: PropTypes.string,
 };
 
-export default HouseTypes;
+export default Illuminiaall;

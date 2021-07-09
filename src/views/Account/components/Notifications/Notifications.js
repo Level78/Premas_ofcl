@@ -12,8 +12,8 @@ import {
 } from '@material-ui/core';
 
 
-import { fluid } from 'views/Ecommerce/data';
-import { Sales } from 'views/Ecommerce/components';
+
+import Fluidigmall from 'Pcat/Fluidigmall/Fluidigmall'
 
 
 
@@ -25,9 +25,9 @@ export default function  Notification(){
   return (
     <div>
       
-     <Sales data = {fluid}/>
+     {/* <Sales data = {fluid}/> */}
   
-
+<Fluidigmall/>
           
       
       

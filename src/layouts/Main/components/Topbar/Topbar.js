@@ -342,15 +342,11 @@ const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...r
 
           <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
 
-            <Button href='/enterprise' style={linkStyles} activeStyle={activeStyles}>Products</Button>
+            <Button href='/account' style={linkStyles} activeStyle={activeStyles}>Products</Button>
 
           </ListItem>
 
-          <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
-
-<Button href='/account' style={linkStyles} activeStyle={activeStyles}>Solutions</Button>
-
-</ListItem>
+ 
 
           <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
 

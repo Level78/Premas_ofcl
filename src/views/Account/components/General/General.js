@@ -12,8 +12,9 @@ import {
 } from '@material-ui/core';
 
 
-import { genomicRange } from 'views/Ecommerce/data';
-import { Sales } from 'views/Ecommerce/components';
+// import { genomicRange } from 'views/Ecommerce/data';
+// import { Sales } from 'views/Ecommerce/components';
+import Genomicall from 'Pcat/Genomicall/Genomicall'
 
 
 
@@ -24,9 +25,9 @@ export default function  General(){
  
   return (
     <div>
-     <Sales data = {genomicRange}/>
+     {/* <Sales data = {genomicRange}/> */}
   
-
+    <Genomicall/>
           
       
       

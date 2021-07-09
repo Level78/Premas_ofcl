@@ -5,7 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Box, List, ListItem, Grid, Typography } from '@material-ui/core';
 import { SectionAlternate, CardBase } from 'components/organisms';
 import { Hero, General, Security, Notifications, Billing } from './components';
-import { Button } from '@material-ui/core';
+
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -143,7 +143,7 @@ const Account = (props = {}) => {
               <TabPanel value={pageId} index={'genomicrange'}>
            
                 <General />
-                <Button >hello</Button>
+            
               </TabPanel>
               <TabPanel value={pageId} index={'illuminia'}>
                 <Security />

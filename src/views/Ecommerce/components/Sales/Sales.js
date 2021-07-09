@@ -12,7 +12,7 @@ import {
 import { Image } from 'components/atoms';
 import { SectionHeader } from 'components/molecules';
 
-import DialChromiumconnect from 'views/Account/components/General/DialChromiumconnect/DialChromiumconnect';
+
 
 
 const useStyles = makeStyles(theme => ({
@@ -72,7 +72,7 @@ const Sales = props => {
                   align="center"
                 >
                    {item.title}
-                   <DialChromiumconnect/>
+                 
                   {/* {item.title} */}
                 </Typography>
                 

@@ -10,10 +10,9 @@ import {
 
   Divider,
 } from '@material-ui/core';
+import Illuminiaall from 'Pcat/Illuminiaall/Illuminiaall'
 
 
-import {  illuminia } from 'views/Ecommerce/data';
-import { Sales } from 'views/Ecommerce/components';
 
 
 
@@ -25,7 +24,7 @@ export default function  Security(){
  
   return (
     <div>
-     <Sales data = {illuminia}/>
+    <Illuminiaall/>
   
 
           

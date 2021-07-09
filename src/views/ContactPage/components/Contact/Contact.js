@@ -109,7 +109,7 @@ const Contact = props => {
         }
         rightSide={
           <Map
-            center={[45.464211, 9.011383]}
+            center={[28.535763, 77.276433]}
             pins={data}
             className={classes.map}
           />
