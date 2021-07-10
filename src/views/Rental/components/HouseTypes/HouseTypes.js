@@ -5,13 +5,13 @@ import { makeStyles, useTheme } from '@material-ui/core/styles';
 import { useMediaQuery, Grid, Typography, NoSsr } from '@material-ui/core';
 import { SectionHeader } from 'components/molecules';
 import { CardBase } from 'components/organisms';
-import { Image } from 'components/atoms';
+import Ccdial from 'Popups/Genome/Ccdial'
 
 const useStyles = makeStyles(theme => ({
   cardBase: {
     '&:hover': {
       background: theme.palette.primary.main,
-      '& .card-icon, & .card-title': {
+      '& .card-icon, & .card-title & .card-main': {
         color: 'white',
       },
     },
@@ -28,6 +28,15 @@ const useStyles = makeStyles(theme => ({
     [theme.breakpoints.up('sm')]: {
       marginTop: theme.spacing(6),
     },
+    vizag:{  marginTop: theme.spacing(4),
+      [theme.breakpoints.up('sm')]: {
+        marginTop: theme.spacing(6),
+      },
+
+
+
+
+    }
   },
 }));
 
@@ -51,10 +60,16 @@ const HouseTypes = props => {
         <Grid item xs={12} sm={4} data-aos="fade-up">
           <CardBase withShadow liftUp className={classes.cardBase}>
             <div>
-              <Image src = "https://ik.imagekit.io/j6phbjneuop/MiniSeq_Hires_MtdCwOlUj.png"/>
+              <NoSsr>
+                <i
+                  className={clsx(classes.icon, 'fas fa-door-open', 'card-icon')}
+                />
+              </NoSsr>
+         
+             
 
-           
             </div>
+          
             <Typography
               variant="h5"
               color="textPrimary"
@@ -62,8 +77,10 @@ const HouseTypes = props => {
               noWrap
               className={clsx(classes.title, 'card-title')}
             >
+               
               Cosy house
             </Typography>
+            <Ccdial className = {clsx(classes.vizag ,'card-main')}/>
           </CardBase>
         </Grid>
         <Grid item xs={12} sm={4} data-aos="fade-up">
@@ -102,99 +119,6 @@ const HouseTypes = props => {
             </Typography>
           </CardBase>
         </Grid>
-      </Grid>
-      <Grid container spacing={isMd ? 4 : 2}>
-        <Grid item xs={12} sm={4} data-aos="fade-up">
-          <CardBase withShadow liftUp className={classes.cardBase}>
-            <div>
-              <Image src = "https://ik.imagekit.io/j6phbjneuop/MiniSeq_Hires_MtdCwOlUj.png"/>
-
-           
-            </div>
-            <Typography
-              variant="h5"
-              color="textPrimary"
-              align="center"
-              noWrap
-              className={clsx(classes.title, 'card-title')}
-            >
-              Cosy house
-            </Typography>
-          </CardBase>
-        </Grid>
-        <Grid item xs={12} sm={4} data-aos="fade-up">
-          <CardBase withShadow liftUp className={classes.cardBase}>
-            <div>
-              <NoSsr><i className={clsx(classes.icon, 'fas fa-couch', 'card-icon')} /></NoSsr>
-            </div>
-            <Typography
-              variant="h5"
-              color="textPrimary"
-              align="center"
-              noWrap
-              className={clsx(classes.title, 'card-title')}
-            >
-              Comfortable
-            </Typography>
-          </CardBase>
-        </Grid>
-        <Grid item xs={12} sm={4} data-aos="fade-up">
-          <CardBase withShadow liftUp className={classes.cardBase}>
-            <div>
-              <NoSsr>
-                <i
-                  className={clsx(classes.icon, 'fas fa-box-tissue', 'card-icon')}
-                />
-              </NoSsr>
-            </div>
-            <Typography
-              variant="h5"
-              color="textPrimary"
-              align="center"
-              noWrap
-              className={clsx(classes.title, 'card-title')}
-            >
-              Modern house
-            </Typography>
-          </CardBase>
-        </Grid>
-      </Grid>
-      <Grid container spacing={isMd ? 4 : 2}>
-        <Grid item xs={12} sm={4} data-aos="fade-up">
-          <CardBase withShadow liftUp className={classes.cardBase}>
-            <div>
-              <Image src = "https://ik.imagekit.io/j6phbjneuop/MiniSeq_Hires_MtdCwOlUj.png"/>
-
-           
-            </div>
-            <Typography
-              variant="h5"
-              color="textPrimary"
-              align="center"
-              noWrap
-              className={clsx(classes.title, 'card-title')}
-            >
-              Cosy house
-            </Typography>
-          </CardBase>
-        </Grid>
-        <Grid item xs={12} sm={4} data-aos="fade-up">
-          <CardBase withShadow liftUp className={classes.cardBase}>
-            <div>
-              <NoSsr><i className={clsx(classes.icon, 'fas fa-couch', 'card-icon')} /></NoSsr>
-            </div>
-            <Typography
-              variant="h5"
-              color="textPrimary"
-              align="center"
-              noWrap
-              className={clsx(classes.title, 'card-title')}
-            >
-              Comfortable
-            </Typography>
-          </CardBase>
-        </Grid>
-        
       </Grid>
     </div>
   );

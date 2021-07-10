@@ -3,7 +3,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import clsx from 'clsx';
+// import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import { useMediaQuery, Grid, Typography,  } from '@material-ui/core';
 import { SectionHeader } from 'components/molecules';
@@ -16,7 +16,7 @@ import { Image } from 'components/atoms';
 const useStyles = makeStyles(theme => ({
   cardBase: {
     '&:hover': {
-      background: theme.palette.primary.main,
+      background: "#7DEDFF",
       '& .card-icon, & .card-title': {
         color: 'white',
       },
@@ -52,7 +52,7 @@ const Illuminiaall = props => {
        
       <SectionHeader
         title="Featured products"
-        subtitle="Re-building illuminia "
+        subtitle="Re-building content "
         data-aos="fade-up"
       />
 
@@ -60,51 +60,36 @@ const Illuminiaall = props => {
         <Grid item xs={12} sm={4} data-aos="fade-up">
           <CardBase withShadow liftUp className={classes.cardBase}>
             <div>
-              <Image src = "https://ik.imagekit.io/j6phbjneuop/Ellipsis-1s-200px_iMfyBkbV_.svg"/>
+              <Image src = "https://ik.imagekit.io/j6phbjneuop/iSEQ100_GhV52MtT_.png"/>
 
            
             </div>
-            <Typography
-              variant="h5"
-              color="textPrimary"
-              align="center"
-              noWrap
-              className={clsx(classes.title, 'card-title')}
-            >
-              {/* Cosy house */}
-            </Typography>
+            <Typography variant="h5" component="span" className={classes.fontWeight900}>
+     <h3>iseq 100 </h3>&nbsp;
+      <Typography  variant="inherit" color="primary">system</Typography>
+    </Typography>
           </CardBase>
         </Grid>
         <Grid item xs={12} sm={4} data-aos="fade-up">
           <CardBase withShadow liftUp className={classes.cardBase}>
             <div>
-            <Image src = "https://ik.imagekit.io/j6phbjneuop/Ellipsis-1s-200px_iMfyBkbV_.svg"/>
+            <Image src = "https://ik.imagekit.io/j6phbjneuop/system-carousel-miniseq-left_aaNU1N8-N.png"/>
             </div>
-            <Typography
-              variant="h5"
-              color="textPrimary"
-              align="center"
-              noWrap
-              className={clsx(classes.title, 'card-title')}
-            >
-              {/* Comfortable */}
-            </Typography>
+            <Typography variant="h5" component="span" className={classes.fontWeight900}>
+     <h3>Miniseq </h3>&nbsp;
+      <Typography  variant="inherit" color="primary">system</Typography>
+    </Typography>
           </CardBase>
         </Grid>
         <Grid item xs={12} sm={4} data-aos="fade-up">
           <CardBase withShadow liftUp className={classes.cardBase}>
             <div>
-            <Image src = "https://ik.imagekit.io/j6phbjneuop/Ellipsis-1s-200px_iMfyBkbV_.svg"/>
+            <Image src = "https://ik.imagekit.io/j6phbjneuop/system-banner-nextseq-550__1__tUvqTmRS6.png"/>
             </div>
-            <Typography
-              variant="h5"
-              color="textPrimary"
-              align="center"
-              noWrap
-              className={clsx(classes.title, 'card-title')}
-            >
-              {/* Modern house */}
-            </Typography>
+            <Typography variant="h5" component="span" className={classes.fontWeight900}>
+     <h3>Nextseq </h3>&nbsp;
+      <Typography  variant="inherit" color="primary">550</Typography>
+    </Typography>
           </CardBase>
         </Grid>
       </Grid>
@@ -112,51 +97,36 @@ const Illuminiaall = props => {
         <Grid item xs={12} sm={4} data-aos="fade-up">
           <CardBase withShadow liftUp className={classes.cardBase}>
             <div>
-              <Image src = "https://ik.imagekit.io/j6phbjneuop/Ellipsis-1s-200px_iMfyBkbV_.svg"/>
+              <Image src = "https://ik.imagekit.io/j6phbjneuop/NovaSeq_t5JkNp9nV.png"/>
 
            
             </div>
-            <Typography
-              variant="h5"
-              color="textPrimary"
-              align="center"
-              noWrap
-              className={clsx(classes.title, 'card-title')}
-            >
-              {/* Cosy house */}
-            </Typography>
+            <Typography variant="h5" component="span" className={classes.fontWeight900}>
+     <h3>Novaseq </h3>&nbsp;
+      <Typography  variant="inherit" color="primary"></Typography>
+    </Typography>
           </CardBase>
         </Grid>
         <Grid item xs={12} sm={4} data-aos="fade-up">
           <CardBase withShadow liftUp className={classes.cardBase}>
             <div>
-            <Image src = "https://ik.imagekit.io/j6phbjneuop/Ellipsis-1s-200px_iMfyBkbV_.svg"/>
+            <Image src = "https://ik.imagekit.io/j6phbjneuop/miseq-system-front-web-graphic_RSTgn0NAN.jpg"/>
             </div>
-            <Typography
-              variant="h5"
-              color="textPrimary"
-              align="center"
-              noWrap
-              className={clsx(classes.title, 'card-title')}
-            >
-              {/* Comfortable */}
-            </Typography>
+            <Typography variant="h5" component="span" className={classes.fontWeight900}>
+     <h3>Miseq </h3>&nbsp;
+      <Typography  variant="inherit" color="primary"> system</Typography>
+    </Typography>
           </CardBase>
         </Grid>
         <Grid item xs={12} sm={4} data-aos="fade-up">
           <CardBase withShadow liftUp className={classes.cardBase}>
             <div>
-            <Image src = "https://ik.imagekit.io/j6phbjneuop/Ellipsis-1s-200px_iMfyBkbV_.svg"/>
+            <Image src = "https://ik.imagekit.io/j6phbjneuop/iscan-system-front-web-graphic_bUlMpaahq.jpg"/>
             </div>
-            <Typography
-              variant="h5"
-              color="textPrimary"
-              align="center"
-              noWrap
-              className={clsx(classes.title, 'card-title')}
-            >
-              {/* Modern house */}
-            </Typography>
+            <Typography variant="h5" component="span" className={classes.fontWeight900}>
+     <h3>iscan </h3>&nbsp;
+      <Typography  variant="inherit" color="primary"> system</Typography>
+    </Typography>
           </CardBase>
         </Grid>
       </Grid>
@@ -164,19 +134,14 @@ const Illuminiaall = props => {
         <Grid item xs={12} sm={4} data-aos="fade-up">
           <CardBase withShadow liftUp className={classes.cardBase}>
             <div>
-              <Image src = "https://ik.imagekit.io/j6phbjneuop/Ellipsis-1s-200px_iMfyBkbV_.svg"/>
+              <Image src = "https://ik.imagekit.io/j6phbjneuop/nextseq-1000-2000-gradient-low-angle-crop-web-graphic_uMjI-wlG5K.jpg"/>
 
            
             </div>
-            <Typography
-              variant="h5"
-              color="textPrimary"
-              align="center"
-              noWrap
-              className={clsx(classes.title, 'card-title')}
-            >
-              {/* Cosy house */}
-            </Typography>
+            <Typography variant="h5" component="span" className={classes.fontWeight900}>
+     <h3>Nextseq  </h3>&nbsp;
+      <Typography  variant="inherit" color="primary">2000</Typography>
+    </Typography>
           </CardBase>
         </Grid>
       

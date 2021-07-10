@@ -98,6 +98,7 @@ const CardBase = props => {
       >
         {children}
       </CardContent>
+      
     </Card>
   );
 };

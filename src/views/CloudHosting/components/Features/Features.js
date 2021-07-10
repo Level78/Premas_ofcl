@@ -80,8 +80,8 @@ const Features = props => {
                               <NoSsr><i className={item.icon} /></NoSsr>
                             </div>
                           }
-                          title={item.title}
-                          subtitle={item.subtitle}
+                          title="hello"
+                          subtitle={item.subtitle} 
                         />
                       </CardBase>
                     </Grid>

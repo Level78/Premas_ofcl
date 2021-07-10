@@ -102,7 +102,7 @@ const TabPanel = props => {
 
 const Account = (props = {}) => {
   const classes = useStyles();
-  let pageId = parse(window.location.search).pid || 'general';
+  let pageId = parse(window.location.search).pid || 'genomicrange';
   
 
   return (
@@ -141,6 +141,8 @@ const Account = (props = {}) => {
           <Grid item xs={12} md={9}>
             <CardBase withShadow align="left">
               <TabPanel value={pageId} index={'genomicrange'}>
+
+               
            
                 <General />
             
