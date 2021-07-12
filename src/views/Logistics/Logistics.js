@@ -9,6 +9,7 @@ import Testiment from './components/Testiment'
 // import Events from 'views/Coworking/components/Events'
 // import Videohero from 'components/Videohero'
 import { Agency } from 'views';
+import Herosec from 'components/Herosec'
 
 
 import {
@@ -65,9 +66,9 @@ const Logistics = () => {
 
   return (
     <div>
-
-      {/* <Videohero /> */}
-
+{/* 
+      <Videohero /> */}
+<Herosec/>
 
       <Hero />
 

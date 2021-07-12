@@ -21,12 +21,12 @@ import Scatac from 'Popups/Genome/Scatac'
 
 const useStyles = makeStyles(theme => ({
   cardBase: {
-    // // '&:hover': {
-    // //   background: theme.palette.primary.main,
-    // //   '& .card-icon, & .card-title': {
-    // //     color: 'white',
-    // //   },
-    // },
+     '&:hover': {
+       background: '#7DEDFF',
+       '& .card-icon, & .card-title': {
+        color: 'white',
+      },
+    },
   },
   icon: {
     fontSize: 60,

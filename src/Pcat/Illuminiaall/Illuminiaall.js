@@ -9,6 +9,14 @@ import { useMediaQuery, Grid, Typography,  } from '@material-ui/core';
 import { SectionHeader } from 'components/molecules';
 import { CardBase } from 'components/organisms';
 import { Image } from 'components/atoms';
+import Iscan from 'Popups/Illuminia/Iscan'
+import Iseq from 'Popups/Illuminia/Iseq'
+import Miniseq from 'Popups/Illuminia/Miniseq'
+import Miseq from 'Popups/Illuminia/Miseq'
+import Nextse from 'Popups/Illuminia/Nextse'
+import Nextseq from 'Popups/Illuminia/Nextseq'
+import Novaseq from 'Popups/Illuminia/Novaseq'
+
 
 
 
@@ -48,11 +56,11 @@ const Illuminiaall = props => {
 
   return (
     <div className={className} {...rest}>
-               <Image center src = "https://ik.imagekit.io/j6phbjneuop/Gear-6.7s-200px_lrbT6ahWj.svg"/>
+               
        
       <SectionHeader
         title="Featured products"
-        subtitle="Re-building content "
+        subtitle="illuminia"
         data-aos="fade-up"
       />
 
@@ -68,6 +76,14 @@ const Illuminiaall = props => {
      <h3>iseq 100 </h3>&nbsp;
       <Typography  variant="inherit" color="primary">system</Typography>
     </Typography>
+
+
+    <br/>
+<br/>
+       
+            <Iseq/> 
+
+
           </CardBase>
         </Grid>
         <Grid item xs={12} sm={4} data-aos="fade-up">
@@ -79,17 +95,35 @@ const Illuminiaall = props => {
      <h3>Miniseq </h3>&nbsp;
       <Typography  variant="inherit" color="primary">system</Typography>
     </Typography>
+
+
+    <br/>
+<br/>
+       
+            <Miniseq/> 
+
+
+
           </CardBase>
         </Grid>
         <Grid item xs={12} sm={4} data-aos="fade-up">
           <CardBase withShadow liftUp className={classes.cardBase}>
             <div>
-            <Image src = "https://ik.imagekit.io/j6phbjneuop/system-banner-nextseq-550__1__tUvqTmRS6.png"/>
+            <Image src = "https://ik.imagekit.io/j6phbjneuop/nextseq-550-rendering-left_p5_ycgmcS.png"/>
             </div>
             <Typography variant="h5" component="span" className={classes.fontWeight900}>
      <h3>Nextseq </h3>&nbsp;
       <Typography  variant="inherit" color="primary">550</Typography>
     </Typography>
+
+    <br/>
+<br/>
+<Nextseq/>
+       
+      
+
+
+
           </CardBase>
         </Grid>
       </Grid>
@@ -97,14 +131,22 @@ const Illuminiaall = props => {
         <Grid item xs={12} sm={4} data-aos="fade-up">
           <CardBase withShadow liftUp className={classes.cardBase}>
             <div>
-              <Image src = "https://ik.imagekit.io/j6phbjneuop/NovaSeq_t5JkNp9nV.png"/>
+              <Image src = "https://ik.imagekit.io/j6phbjneuop/nextseq-2000-system-product-front-web-graphic_r_6bczbSy-.jpg"/>
 
            
             </div>
             <Typography variant="h5" component="span" className={classes.fontWeight900}>
-     <h3>Novaseq </h3>&nbsp;
-      <Typography  variant="inherit" color="primary"></Typography>
+     <h3>Nextseq </h3>&nbsp;
+      <Typography  variant="inherit" color="primary">2000</Typography>
     </Typography>
+
+
+    <br/>
+<br/>
+       
+            <Nextse/> 
+
+
           </CardBase>
         </Grid>
         <Grid item xs={12} sm={4} data-aos="fade-up">
@@ -116,6 +158,14 @@ const Illuminiaall = props => {
      <h3>Miseq </h3>&nbsp;
       <Typography  variant="inherit" color="primary"> system</Typography>
     </Typography>
+
+    <br/>
+<br/>
+       
+            <Miseq/> 
+
+
+
           </CardBase>
         </Grid>
         <Grid item xs={12} sm={4} data-aos="fade-up">
@@ -127,6 +177,13 @@ const Illuminiaall = props => {
      <h3>iscan </h3>&nbsp;
       <Typography  variant="inherit" color="primary"> system</Typography>
     </Typography>
+
+
+
+    <br/>
+<br/>
+       
+            <Iscan/> 
           </CardBase>
         </Grid>
       </Grid>
@@ -134,14 +191,23 @@ const Illuminiaall = props => {
         <Grid item xs={12} sm={4} data-aos="fade-up">
           <CardBase withShadow liftUp className={classes.cardBase}>
             <div>
-              <Image src = "https://ik.imagekit.io/j6phbjneuop/nextseq-1000-2000-gradient-low-angle-crop-web-graphic_uMjI-wlG5K.jpg"/>
+              <Image src = "https://ik.imagekit.io/j6phbjneuop/NovaSeq1_yEV4kqmK0.png"/>
 
            
             </div>
             <Typography variant="h5" component="span" className={classes.fontWeight900}>
-     <h3>Nextseq  </h3>&nbsp;
-      <Typography  variant="inherit" color="primary">2000</Typography>
+     <h3>Novaseq  </h3>&nbsp;
+      <Typography  variant="inherit" color="primary"></Typography>
     </Typography>
+
+
+    <br/>
+<br/>
+       
+            <Novaseq/> 
+
+
+
           </CardBase>
         </Grid>
       

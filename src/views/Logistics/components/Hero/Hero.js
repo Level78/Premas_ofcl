@@ -13,8 +13,8 @@ import { HeroShaped } from 'components/organisms';
 
 const useStyles = makeStyles(theme => ({
   root: {
-    background:
-      'url(https://ik.imagekit.io/j6phbjneuop/ezgif.com-gif-maker__10__0NZ7lNuXy.gif) no-repeat left bottom',
+    // background:
+    //   'url(https://ik.imagekit.io/j6phbjneuop/ezgif.com-gif-maker__10__0NZ7lNuXy.gif) no-repeat left bottom',
     backgroundSize: 'full-width',
     backgroundColor: theme.palette.alternate.main,
   },
