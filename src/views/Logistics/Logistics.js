@@ -16,7 +16,7 @@ import {
 
   AboutBottom,
   Features,
-  Hero,
+  // Hero,
   Integrations,
 
 
@@ -36,6 +36,8 @@ import {
 
 } from './data';
 import { SectionHeader } from 'components/molecules';
+// import { articles } from 'views/CloudHosting/data';
+import Herosec from 'components/Herosec';
 
 const useStyles = makeStyles(theme => ({
   sectionTrucking: {
@@ -66,11 +68,18 @@ const Logistics = () => {
 
   return (
     <div>
-{/* 
-      <Videohero /> */}
+      <div>
+ <Herosec/>
+ </div>
 
 
-      <Hero />
+
+      {/* <Hero /> */}
+      {/* < section dat = {articles} />
+      if {x===geilt = 7.8.90}{
+
+      }
+      make video box */}
 
 
 
