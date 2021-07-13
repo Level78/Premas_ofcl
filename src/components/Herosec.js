@@ -1,6 +1,6 @@
 // import { Button } from '@material-ui/core';
 import React from 'react'
-import './Herosec.css';
+import './Herosec.css' 
 import { TypedText } from './molecules';
 
 
