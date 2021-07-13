@@ -13,7 +13,8 @@ import { TypedText } from './molecules';
 function Herosec() {
     return (
         <div className = "showcase">
-            <video width="100%" src = "/videos/polo.mp4" autoPlay loop muted/>
+            <video width="100%" src = "https://ik.imagekit.io/j6phbjneuop/polo_ydkwZ4dX0.mp4"  playing={true}
+    autoPlay loop muted/>
                <div className="intro">
                 <h2>Breakthrough Discoveries Need</h2>
                 <h3>Breakthrough</h3>
