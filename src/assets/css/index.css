@@ -112,6 +112,14 @@ a {
   }
 }
 
+@media screen and (max-width: 450px) {
+  .intro {
+    font-size: 35px;
+    margin-top: -650px;
+    margin-left: 50px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .intro {
     font-size: 35px;
@@ -132,13 +140,5 @@ a {
     font-size: 35px;
     margin-top: -300px;
     margin-left: 68px;
-  }
-}
-
-@media screen and (max-width: 438px) {
-  .showcase > h1 {
-    font-size: 40px;
-    margin-top: -600px;
-    margin-left: 95px;
   }
 }
